@@ -7,10 +7,10 @@ tokenizer = BertTokenizer.from_pretrained(model_name)
 model = BertForSequenceClassification.from_pretrained(model_name)
 
 # Save the model and tokenizer to .pkl files
-with open('models/bert_model.pkl', 'wb') as f:
+with open('bert_model.pkl', 'wb') as f:
     pickle.dump(model, f)
 
-with open('models/tokenizer.pkl', 'wb') as f:
+with open('tokenizer.pkl', 'wb') as f:
     pickle.dump(tokenizer, f)
 
 print("Model and tokenizer saved successfully!")
