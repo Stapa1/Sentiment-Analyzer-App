@@ -59,10 +59,13 @@ This current version is a Minimum Viable Product (MVP). Plans for the future inc
 2. Install the required dependencies:
    ```bash
     pip install -r requirements.txt
-3. Run the Flask application:
+3. Run the model script to load the trained model and tokenizer:
+   ```bash
+    python model.py
+4. Run the Flask application:
     ```bash
     python app.py
-4. Open your web browser and go to http://127.0.0.1:5000/ to access the application.
+5. Open your web browser and go to http://127.0.0.1:5000/ to access the application.
 
 ## Conclusion
 This project demonstrates the effectiveness of BERT for sentiment analysis of product reviews, achieving a remarkable accuracy of 97% on the Amazon reviews dataset, surpassing the ensemble model's 95%. This high accuracy highlights BERT's ability to grasp the nuances of language, making it ideal for understanding customer sentiment.
