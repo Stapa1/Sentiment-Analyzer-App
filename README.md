@@ -71,7 +71,7 @@ This current version is a Minimum Viable Product (MVP). Plans for the future inc
 ### Sentiment Analysis Results
 Using the reviews from the Amazon product [Daikin Inverter AC](https://www.amazon.in/Daikin-Inverter-Display-Technology-MTKL50U/dp/B0BK1KS6ZD/ref=sr_1_1?_encoding=UTF8&rps=1&s=kitchen&sr=1-1), I conducted sentiment analysis as part of the demo for this project. 
 
-- **Number of Reviews Analyzed**: X (insert the total number of reviews)
+- **Number of Reviews Analyzed**: 5
 - **Very Positive**: A reviews
 - **Positive**: B reviews
 - **Neutral**: C reviews
