@@ -66,8 +66,44 @@ This current version is a Minimum Viable Product (MVP). Plans for the future inc
     ```bash
     python app.py
 5. Open your web browser and go to http://127.0.0.1:5000/ to access the application.
+## Outputs
 
-## Conclusion
+### Sentiment Analysis Results
+Using the reviews from the Amazon product [Daikin Inverter AC](https://www.amazon.in/Daikin-Inverter-Display-Technology-MTKL50U/dp/B0BK1KS6ZD/ref=sr_1_1?_encoding=UTF8&rps=1&s=kitchen&sr=1-1), I conducted sentiment analysis as part of the demo for this project. 
+
+- **Number of Reviews Analyzed**: 5
+- **Very Positive**: A reviews
+- **Positive**: B reviews
+- **Neutral**: C reviews
+- **Negative**: D reviews
+- **Very Negative**: E reviews
+
+### Demo Overview
+The demo showcases the effectiveness of the sentiment analysis model applied to the product reviews. By analyzing sentiments, the application helps in understanding customer feedback and experiences with the product.
+
+### Visual Output
+
+Here are the outputs from the sentiment analysis application, categorized by sentiment labels:
+
+### Very Positive
+![Very Positive](images/Outputs/very_positive.png)
+
+### Positive
+![Positive](images/Outputs/positive.png)
+
+### Neutral
+![Neutral](images/Outputs/neutal.png)
+
+### Negative
+![Negative](images/Outputs/negative.png)
+
+### Very Negative
+![Very Negative](images/Outputs/very_negative.png)
+
+
+### Conclusion
+The analysis demonstrates significant insights from the product reviews, indicating customer satisfaction levels and areas for improvement.
+
 This project demonstrates the effectiveness of BERT for sentiment analysis of product reviews, achieving a remarkable accuracy of 97% on the Amazon reviews dataset, surpassing the ensemble model's 95%. This high accuracy highlights BERT's ability to grasp the nuances of language, making it ideal for understanding customer sentiment.
 
 The developed Flask web application allows users to easily input product reviews and receive instant feedback categorized into "Positive," "Very Positive," "Neutral," "Negative," and "Very Negative." This functionality enhances user experience by enabling quick sentiment assessments without the need to read through numerous reviews.
