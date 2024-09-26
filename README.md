@@ -100,6 +100,21 @@ Here are the outputs from the sentiment analysis application, categorized by sen
 ### Very Negative
 ![Very Negative](images/Outputs/very_negative.png)
 
+
+
+
+### Conclusion
+The analysis demonstrates significant insights from the product reviews, indicating customer satisfaction levels and areas for improvement.
+
+This project demonstrates the effectiveness of BERT for sentiment analysis of product reviews, achieving a remarkable accuracy of 97% on the Amazon reviews dataset, surpassing the ensemble model's 95%. This high accuracy highlights BERT's ability to grasp the nuances of language, making it ideal for understanding customer sentiment.
+
+The developed Flask web application allows users to easily input product reviews and receive instant feedback categorized into "Positive," "Very Positive," "Neutral," "Negative," and "Very Negative." This functionality enhances user experience by enabling quick sentiment assessments without the need to read through numerous reviews.
+
+As a minimum viable product (MVP), future enhancements could include expanding the dataset, adding sentiment trend analysis, integrating the model into e-commerce platforms, and allowing user feedback for continuous improvement.
+
+Broader applications extend beyond product reviews, including social media monitoring and brand reputation management. Overall, this project serves as a strong foundation for leveraging sentiment analysis to derive valuable insights and improve customer relations in various industries.
+
+
 ### How Sentiment Analysis Aligns with Cresco Ltd.’s Goals
 This project aligns seamlessly with Cresco Ltd.’s core values and objectives:
 
@@ -125,18 +140,6 @@ Smarter Business Intelligence and Strategy
 
 - Cresco’s business intelligence services could be further strengthened by incorporating sentiment analysis as an additional layer of data. For instance, Cresco’s clients could use this tool to predict how a product launch or service change might affect customer sentiment, allowing for strategic adjustments ahead of time. This aligns with Cresco’s focus on scalable and future-ready solutions, empowering businesses to stay competitive through innovative technologies like BERT-powered sentiment analysis.
 
-
-
-### Conclusion
-The analysis demonstrates significant insights from the product reviews, indicating customer satisfaction levels and areas for improvement.
-
-This project demonstrates the effectiveness of BERT for sentiment analysis of product reviews, achieving a remarkable accuracy of 97% on the Amazon reviews dataset, surpassing the ensemble model's 95%. This high accuracy highlights BERT's ability to grasp the nuances of language, making it ideal for understanding customer sentiment.
-
-The developed Flask web application allows users to easily input product reviews and receive instant feedback categorized into "Positive," "Very Positive," "Neutral," "Negative," and "Very Negative." This functionality enhances user experience by enabling quick sentiment assessments without the need to read through numerous reviews.
-
-As a minimum viable product (MVP), future enhancements could include expanding the dataset, adding sentiment trend analysis, integrating the model into e-commerce platforms, and allowing user feedback for continuous improvement.
-
-Broader applications extend beyond product reviews, including social media monitoring and brand reputation management. Overall, this project serves as a strong foundation for leveraging sentiment analysis to derive valuable insights and improve customer relations in various industries.
 
 
 
