@@ -55,7 +55,7 @@ This current version is a Minimum Viable Product (MVP). Plans for the future inc
 1. Clone the repository:
    ```bash
    git clone https://github.com/Stapa1/Sentiment-Analyzer-App.git
-   cd entiment-Analyzer-App
+   cd Sentiment-Analyzer-App
 2. Install the required dependencies:
    ```bash
     pip install -r requirements.txt
